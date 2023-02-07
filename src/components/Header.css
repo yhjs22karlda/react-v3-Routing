@@ -1,11 +1,29 @@
 .header {
     display: flex;
     margin-bottom: 2rem;
-    align-items: stretch;
+    align-items: center;
     height: 100px;
 }
 
 .header img {
     display: block;
     height: 100%;
+}
+
+.header a {
+    text-decoration: none;
+}
+.header a:visited {
+    color:unset;
+}
+
+.header__para {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    color:#a94f78;
+}
+
+.home, .about {
+    color: white;
+    font-size: 4rem;
 }

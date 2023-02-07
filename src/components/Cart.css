@@ -4,6 +4,7 @@
     align-items: center;
     gap: 1rem;
     position: relative;
+    font-size: 1.2rem;
 }
 
 .cart__text {
@@ -35,7 +36,6 @@
     margin: 0;
     padding: .8rem .4rem;
     transition: opacity .5s;
-    /* border: 2px solid blueviolet */
 }
 .cart__list {
     padding: .4rem  0.4rem .4rem 2rem;
@@ -46,7 +46,6 @@
     padding: .2rem;
 }
 .hidden {
-    /* visibility: hidden; */
     opacity: 0;
     transition: opacity .5s;
 }

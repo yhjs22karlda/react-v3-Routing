@@ -1,3 +1,10 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    row-gap: 1rem;
+    column-gap: max(1rem, 3%);
+}
+
 .product {
     background-color: white;
     display: flex;

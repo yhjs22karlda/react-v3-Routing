@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App'
 import Home from './components/Home'
 import Header from './components/Header'
 import About from './components/About'
@@ -13,7 +12,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Header />,
         children: [{
-            path: "home",
+            index: true,
             element: <Home />
         },{
             path: "about",
@@ -23,7 +22,7 @@ const router = createBrowserRouter([
             element: <Products />
         }],
         errorElement: <p style={{color:"white",fontSize:"4rem"}}
-        ><Link to="/">Error</Link></p>
+        ><Link to="/">Error (go back)</Link></p>
     }
 ])
 
